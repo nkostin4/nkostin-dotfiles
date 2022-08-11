@@ -1,6 +1,6 @@
 # N. Kostin's dotfiles
 
-This repo, which I forked from [Luke Smith](https://lukesmith.xyz/), contains my dotfiles, which I use on an installation of [Artix Linux](https://artixlinux.org/).
+This repo, which I forked from [Luke Smith](https://lukesmith.xyz), contains my dotfiles, which I use on an installation of [Artix Linux](https://artixlinux.org).
 
 - Useful scripts are in `~/.local/bin/`
 - Settings for:

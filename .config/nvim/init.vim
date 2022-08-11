@@ -16,6 +16,7 @@ Plug 'vimwiki/vimwiki'
 Plug 'vim-airline/vim-airline'
 Plug 'tpope/vim-commentary'
 Plug 'ap/vim-css-color'
+Plug 'lervag/vimtex'
 call plug#end()
 
 set title
@@ -35,7 +36,7 @@ set noshowcmd
 	filetype plugin on
 	syntax on
 	set encoding=utf-8
-	set number relativenumber
+	set number
 " Enable autocompletion:
 	set wildmode=longest,list,full
 " Disables automatic commenting on newline:
@@ -129,27 +130,3 @@ set noshowcmd
 if &diff
     highlight! link DiffText MatchParen
 endif
-
-" Function for toggling the bottom statusbar:
-let s:hidden_all = 0
-function! ToggleHiddenAll()
-    if s:hidden_all  == 0
-        let s:hidden_all = 1
-        set noshowmode
-        set noruler
-        set laststatus=0
-        set noshowcmd
-    else
-        let s:hidden_all = 0
-        set showmode
-        set ruler
-        set laststatus=2
-        set showcmd
-    endif
-endfunction
-nnoremap <leader>h :call ToggleHiddenAll()<CR>
-" Load command shortcuts generated from bm-dirs and bm-files via shortcuts script.
-" Here leader is ";".
-" So ":vs ;cfz" will expand into ":vs /home/<user>/.config/zsh/.zshrc"
-" if typed fast without the timeout.
-source ~/.config/nvim/shortcuts.vim
