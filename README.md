@@ -20,13 +20,13 @@ This repo, which I forked from [Luke Smith](https://lukesmith.xyz), contains my 
 
 ## Usage
 
-These dotfiles are intended to go with numerous suckless programs I use:
+These dotfiles are intended to go with numerous suckless programs N. Kostin uses:
 
 - [dwm](https://github.com/nkostin4/dwm) (window manager)
 - [slstatus](https://github.com/nkostin4/slstatus) (statusbar)
 - [st](https://github.com/lukesmithxyz/st) (terminal emulator)
 
-I also recommend trying out
+N. Kostin, on behalf of Luke Smith, also recommends trying out
 [mutt-wizard](https://github.com/lukesmithxyz/mutt-wizard), which additionally
 works with this setup. It gives you an easy-to-install terminal-based email
 client regardless of your email provider. It is integrated into these dotfiles
