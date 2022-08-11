@@ -1,11 +1,10 @@
-# The Voidrice (Luke Smith <https://lukesmith.xyz>'s dotfiles)
+# N. Kostin's dotfiles
 
-These are the dotfiles deployed by [LARBS](https://larbs.xyz) and as seen on
-[my YouTube channel](https://youtube.com/c/lukesmithxyz).
+This repo, which I forked from [Luke Smith](https://lukesmith.xyz/), contains my dotfiles, which I use on an installation of [Artix Linux](https://artixlinux.org/).
 
-- Very useful scripts are in `~/.local/bin/`
+- Useful scripts are in `~/.local/bin/`
 - Settings for:
-	- vim/nvim (text editor)
+	- neovim (text editor)
 	- zsh (shell)
 	- lf (file manager)
 	- mpd/ncmpcpp (music)
@@ -23,8 +22,8 @@ These are the dotfiles deployed by [LARBS](https://larbs.xyz) and as seen on
 
 These dotfiles are intended to go with numerous suckless programs I use:
 
-- [dwm](https://github.com/lukesmithxyz/dwm) (window manager)
-- [dwmblocks](https://github.com/lukesmithxyz/dwmblocks) (statusbar)
+- [dwm](https://github.com/nkostin4/dwm) (window manager)
+- [slstatus](https://github.com/nkostin4/slstatus) (statusbar)
 - [st](https://github.com/lukesmithxyz/st) (terminal emulator)
 
 I also recommend trying out
@@ -35,15 +34,12 @@ as well.
 
 ## Install these dotfiles and all dependencies
 
-Use [LARBS](https://larbs.xyz) to autoinstall everything:
+Use [the following](https://github.com/nkostin4/nkostin-deploy-artix) to autoinstall everything:
 
 ```
-curl -LO larbs.xyz/larbs.sh
+curl -LO https://raw.githubusercontent.com/nkostin4/nkostin-deploy-artix/master/deploy.sh
+sh deploy.sh
 ```
 
 or clone the repo files directly to your home directory and install the
-[dependencies](https://github.com/LukeSmithxyz/LARBS/blob/master/progs.csv).
-
-## Default Desktop Artwork
-
-Thomas Thiemeyer's *The Road to Samarkand* ([fb](https://www.facebook.com/t.thiemeyer/), [insta](https://www.instagram.com/tthiemeyer/), [shop](https://www.redbubble.com/de/people/TThiemeyer/shop))
+[dependencies](https://github.com/nkostin4/nkostin-deploy-artix/blob/master/progs.csv).
